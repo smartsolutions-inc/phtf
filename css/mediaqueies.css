@@ -1,0 +1,5 @@
+@media screen and ( max-width: 1366px ) {
+    .window-panel--app {
+        width: 1200px;
+    }
+}

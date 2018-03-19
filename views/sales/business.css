@@ -1,0 +1,36 @@
+.header {
+    background: #081221;
+}
+
+.ribbon-section-model-signals, .ribbon-section-model-commerce {
+    width: 100%;
+    height: 92px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    position: fixed;
+}
+
+.ribbon-section-model-signals {
+    background-image: url('../../public/static/signals.jpeg');
+}
+
+.ribbon-section-model-commerce {
+    background-image: url('../../public/static/commerce.jpeg');
+}
+
+.ribbon-cover-label {
+    width: 100%;
+    height: 92px;
+    position: relative;
+    background: rgba(218, 165, 32, .8);
+}
+
+
+.section-cards-management {
+    width: 100%;
+    height: calc(100vh - (92px + 64px));
+    top: 92px;
+    position: absolute;
+    background: transparent;
+}
